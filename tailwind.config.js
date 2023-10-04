@@ -10,6 +10,7 @@ module.exports = {
       backgroundImage: {
         'triangles_image' : "url('../public/studium-bg.png')",
         'hero_image' : "url('../public/coworking.png')",
+        'hero_image_mobile' : "url('../public/coworking-mobile.png')",
       },
     },
   },
