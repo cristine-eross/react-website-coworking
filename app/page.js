@@ -14,6 +14,7 @@ export default function Home() {
         line2 = 'in the heart of Targu Mures,'
         line3 = 'the perfect office environment'
         strong2 = 'for entrepreneurs, remotes or freelancers.' 
+        cta = 'show me around'
       />
       <SectionTitle 
         title = 'about us'
