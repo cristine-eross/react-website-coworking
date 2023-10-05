@@ -5,13 +5,7 @@ import Link from 'next/link'
 function AboutCardGrid() {
   return (
     <>
-    <Image
-        src={'/office.png'}
-        width={800}
-        height={500}
-        className='mx-auto mt-10 mb-20'
-    />
-    <div className='flex flex-col mg:flex-col lg:flex-row justify-center items-center gap-20'>
+    <div className='my-12 flex flex-col mg:flex-col lg:flex-row justify-center items-center gap-20'>
         <div className='bg-white shadow-md shadow-slate-600 w-[350px] h-[450px] flex flex-col justify-between items-center text-center'>
             <h3 className='text-5xl pt-8 font-bold'>where?</h3>
             <h4 className='text-2xl leading-tight p-8'>Our address is < br/> 540064 Targu Mures, Bolyai street 15.</h4>
