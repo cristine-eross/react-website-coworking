@@ -21,13 +21,13 @@ function Navbar() {
         </div>
         <div className='font-bold text-xl flex gap-8 items-center justify-between tracking-tight'>  
           <Link href={'#'} className='hover:border border-slate-700 rounded-sm px-4 py-2 hover:text-slate-700'>
-            <h2>about us</h2>
-          </Link>
-          <Link href={'#'} className='hover:border border-slate-700 rounded-sm px-4 py-2 hover:text-slate-700'>
-          <h2>your space</h2>
+            <h2>your space</h2>
           </Link>
           <Link href={'#'} className='hover:border border-slate-700 rounded-sm px-4 py-2 hover:text-slate-700'>
           <h2>packages</h2>
+          </Link>
+          <Link href={'#'} className='hover:border border-red-100 rounded-sm px-4  hover:text-slate-700'>
+          <h2 className='bg-red-50 p-2 rounded-sm'>book your spot</h2>
           </Link>
           <Link href={'#'} className='hover:border border-slate-700 rounded-sm px-4 py-2 hover:text-gradient-to-r from-slate-700 to-slate-400'>
           <h2>contact</h2>
