@@ -6,7 +6,7 @@ import FormModal from '@/components/LanguageComponents/SmallComponents/FormModal
 
 
 export default function Home() {
-
+  
   return (
     <main className="bg-triangles_image h-[6600px] bg-repeat">
       <Hero 
