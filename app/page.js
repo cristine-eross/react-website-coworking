@@ -1,8 +1,7 @@
-import Hero from '@/components/LanguageComponents/SmallComponents/Hero'
-import ImagesGrid from '@/components/LanguageComponents/SmallComponents/ImagesGrid'
-import AboutCardGrid from '@/components/LanguageComponents/SmallComponents/AboutCardGrid'
-import SectionTitle from '@/components/LanguageComponents/SmallComponents/SectionTitle'
-import FormModal from '@/components/LanguageComponents/SmallComponents/FormModal'
+import Hero from '@/components/Hero'
+import ImagesGrid from '@/components/ImagesGrid'
+import AboutCardGrid from '@/components/AboutCardGrid'
+import SectionTitle from '@/components/SectionTitle'
 
 
 export default function Home() {
@@ -22,7 +21,6 @@ export default function Home() {
       />
       <ImagesGrid />
       <AboutCardGrid />
-      <FormModal />
     </main>
   )
 }

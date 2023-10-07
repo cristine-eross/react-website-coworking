@@ -35,13 +35,13 @@ function Navbar() {
         </div>
         <div className='flex gap-2 items-center'>
           <div className='font-bold text-lg rounded-full p-3 text-center bg-slate-500 hover:bg-white hover:border hover:border-slate-700'>
-            <button><h2>EN</h2></button> 
+            <Link href={'/en'}><h2>EN</h2></Link>
           </div>
           <div className='font-bold text-lg rounded-full p-3 text-center bg-slate-400 hover:bg-white hover:border hover:border-slate-700'>
-            <button><h2>RO</h2></button>
+            <Link href={'/ro'}><h2>RO</h2></Link>
           </div>
           <div className='font-bold text-lg rounded-full p-3 text-center bg-slate-300 hover:bg-white hover:border hover:border-slate-700'>
-            <button><h2>HU</h2></button>
+            <Link href={'/hu'}><h2>HU</h2></Link>
           </div>
         </div>
       </div>
